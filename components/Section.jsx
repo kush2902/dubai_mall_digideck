@@ -2,9 +2,12 @@
 
 import { motion } from "framer-motion";
 
-export default function Section({ children, bg }) {
+export default function Section({ children, bg, id }) {
   return (
-    <section className={`h-screen w-full snap-start flex items-center justify-center relative ${bg}`}>
+    <section
+      id={id}
+      className={`h-screen w-full snap-start flex items-center justify-center relative ${bg}`}
+    >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
