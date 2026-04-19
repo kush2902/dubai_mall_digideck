@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./app/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        luxury: ["Helvetica", "Arial", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 };
