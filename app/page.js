@@ -17,7 +17,7 @@ export default function Home() {
       {/* HERO */}
       <section className="h-screen snap-start relative flex items-center justify-center">
         <video autoPlay muted loop className="absolute w-full h-full object-cover opacity-50">
-          <source src="/videos/hero.mp4" />
+          <source src="https://res.cloudinary.com/dv8ywrti6/video/upload/v1776364998/Untitled_design-2_f6y0ig.mp4" type="video/mp4" />
         </video>
 
         <div className="relative text-center">
