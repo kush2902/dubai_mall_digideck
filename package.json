@@ -1,4 +1,4 @@
-"id": "fix-start-script",
+"id": "final-package",
 {
   "name": "dubai-digideck",
   "private": true,
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.0",
-    "next": "14.0.0",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
   }
