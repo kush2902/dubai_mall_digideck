@@ -1,9 +1,11 @@
+"id": "fix-start-script",
 {
   "name": "dubai-digideck",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "framer-motion": "^10.16.0",
