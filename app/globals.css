@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  overflow: hidden; /* CRITICAL for digideck feel */
   background: black;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Smooth scroll feel */
+/* smoother animations */
 * {
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
